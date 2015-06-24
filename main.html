@@ -1,0 +1,33 @@
+<html ng-app="Pairings">
+<head>
+  <base href="main.html">
+  <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>-->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.js"></script>
+
+  <script src="js/closure/goog/base.js"></script>
+  <script src="playercontroller.js"></script>
+  <script src="pairings.js"></script>
+</head>
+
+<body ng-controller="PlayerController as player">
+  <md-toolbar>
+    <h3>MagicPairings.org</h3>
+  </md-toolbar>
+
+  <md-content>
+    <md-card>
+      Hi playername
+
+      You are at table A vs. player N.
+      <md-button class="md-primary">Hi</md-button>
+    </md-card>
+
+  </md-content>
+
+</body>
+</html>
